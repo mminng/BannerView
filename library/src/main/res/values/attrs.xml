@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="bannerReverseLayout" format="boolean" />
+
+    <declare-styleable name="BannerView">
+        <attr name="bannerPadding" format="dimension" />
+        <attr name="bannerReverseLayout" />
+        <attr name="bannerIndicator" format="reference" />
+        <attr name="bannerIndicatorSelected" format="reference" />
+        <attr name="bannerIndicatorGravity" format="enum">
+            <enum name="center" value="0" />
+            <enum name="start" value="1" />
+            <enum name="end" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="TextBannerView">
+        <attr name="bannerReverseLayout" />
+    </declare-styleable>
+
+</resources>
