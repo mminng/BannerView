@@ -17,7 +17,7 @@ Simple to use and easy to expand.
 <com.github.mminng.banner.TextBannerView
     ... />
 ```
-### set data
+### BannerView
 > Simple
 ```Kotlin
 //create data (String type only)
@@ -90,6 +90,11 @@ override fun onPause() {
     bannerView.stop()
 }
 ```
+# Attrs
+| Attrs | Description |
+| ------| ----------- |
+| app:bannerPadding | padding left and right |
+
 # License
 ```markdown
 Licensed under the Apache License, Version 2.0 (the "License");
