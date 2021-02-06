@@ -63,20 +63,6 @@ bannerView.setAdapter(customAdapter)
 //play
 bannerView.play()
 ```
-### lifecycle
-```kotlin
-//addObserver
-lifecycle.addObserver(bannerView)
-//or
-override fun onResume() {
-    ...
-    bannerView.resume()
-}
-override fun onPause() {
-    ...
-    bannerView.stop()
-}
-```
 ### TextBannerView
 > Simple
 ```kotlin
@@ -89,6 +75,20 @@ val defaultAdapter = DefaultTextBannerAdapter()
 > Custom
 ```kotlin
 //same as (Image)BannerView
+```
+### Lifecycle
+```kotlin
+//addObserver
+lifecycle.addObserver(bannerView)
+//or
+override fun onResume() {
+    ...
+    bannerView.resume()
+}
+override fun onPause() {
+    ...
+    bannerView.stop()
+}
 ```
 # License
 ```markdown
