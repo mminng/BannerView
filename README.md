@@ -21,7 +21,8 @@ dependencies {
     implementation 'com.github.mminng:BannerView:1.0.0'
 }
 ```
-# Example<br><font color=#018786 size=3>*Just like using Recyclerview*</font>
+# Example
+***Just like using Recyclerview***
 ### add BannerView to your layout
 > ImageBanner
 ```xml
