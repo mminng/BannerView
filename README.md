@@ -4,7 +4,7 @@ A BannerView for Android.
 Show image or text.  
 Simple to use and easy to expand.
 # Screenshots
-![screenshot]()&emsp;![screenshot]()
+![screenshot](https://raw.githubusercontent.com/mminng/BannerView/main/screenshots/Screenshot_image.png)&emsp;![screenshot](https://raw.githubusercontent.com/mminng/BannerView/main/screenshots/Screenshot_text.png)
 # Getting Started
 **Step 1.** Add it in your root build.gradle at the end of repositories:
 ```Groovy
