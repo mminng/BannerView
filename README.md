@@ -5,7 +5,7 @@ Show image or text.
 Simple to use and easy to expand.
 # Getting Started
 ...
-# Example
+# Example<br><font color=#018786 size=5>*Just like using Recyclerview*</font>
 ### add BannerView to your layout
 > ImageBanner
 ```xml
@@ -91,24 +91,21 @@ override fun onPause() {
 }
 ```
 # Attrs
+### BannerView
 | Attrs | Type | Description |
 |-----|----|-----------|
 | app:bannerPadding | dimension | padding left and right |
-|-----------------|---------|----------------------|
-| bannerReverseLayout | boolean | reverseLayout |
-|-------------------|-------|-------------|
-| bannerIndicator | reference | set indicator drawable unselected |
-|---------------|---------|---------------------------------|
-| bannerIndicatorSelected | reference | set indicator drawable selected |
-|-----------------------|---------|-------------------------------|
-| bannerIndicatorGravity | enum | set indicator gravity |
-|----------------------|----|---------------------|
-|----------------------|----| IndicatorGravity.CENTER |
-|----------------------|----| IndicatorGravity.START |
-|----------------------|----| IndicatorGravity.END|
+| app:bannerReverseLayout | boolean | reverseLayout |
+| app:bannerIndicator | reference | set indicator drawable unselected |
+| app:bannerIndicatorSelected | reference | set indicator drawable selected |
+| app:bannerIndicatorGravity | enum | set indicator gravity<br><font color=#018786>center, start or end</font>
+### TextBannerView
+| Attrs | Type | Description |
+|-----|----|-----------|
+| app:bannerReverseLayout | boolean | reverseLayout |
 # License
 ```markdown
-Copyright 2016 mminng
+Copyright 2021 mminng
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
