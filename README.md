@@ -91,12 +91,25 @@ override fun onPause() {
 }
 ```
 # Attrs
-| Attrs | Description |
-| ------| ----------- |
-| app:bannerPadding | padding left and right |
-
+| Attrs | Type | Description |
+|-----|----|-----------|
+| app:bannerPadding | dimension | padding left and right |
+|-----------------|---------|----------------------|
+| bannerReverseLayout | boolean | reverseLayout |
+|-------------------|-------|-------------|
+| bannerIndicator | reference | set indicator drawable unselected |
+|---------------|---------|---------------------------------|
+| bannerIndicatorSelected | reference | set indicator drawable selected |
+|-----------------------|---------|-------------------------------|
+| bannerIndicatorGravity | enum | set indicator gravity |
+|----------------------|----|---------------------|
+|----------------------|----| IndicatorGravity.CENTER |
+|----------------------|----| IndicatorGravity.START |
+|----------------------|----| IndicatorGravity.END|
 # License
 ```markdown
+Copyright 2016 mminng
+
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
