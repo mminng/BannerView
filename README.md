@@ -23,7 +23,7 @@ dependencies {
 ```
 # Example
 ***Just like using Recyclerview***
-### add BannerView to your layout
+### add BannerView in your layout
 > ImageBanner
 ```xml
 <com.github.mminng.banner.BannerView
@@ -86,6 +86,10 @@ bannerView.play()
 //create DefaultTextBannerAdapter(already contains in BannerView)
 //String type only
 val defaultAdapter = DefaultTextBannerAdapter()
+//DefaultTextBannerAdapter only
+defaultAdapter.setTextColor()
+//DefaultTextBannerAdapter only
+defaultAdapter.setTextSize()
 ...
 //same as (Image)BannerView
 ```
