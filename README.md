@@ -55,6 +55,8 @@ defaultAdapter.setOnItemClickListener { data, position ->
 bannerView.setAdapter(defaultAdapter)
 //play
 bannerView.play()
+//or
+bannerView.play(/*duration*/5000)
 ```
 > Custom
 ```kotlin
@@ -79,6 +81,8 @@ customAdapter.setOnItemClickListener { data, position ->
 bannerView.setAdapter(customAdapter)
 //play
 bannerView.play()
+//or
+bannerView.play(/*duration*/5000)
 ```
 ### TextBannerView
 > Simple
