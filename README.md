@@ -1,6 +1,6 @@
 # BannerView
 A BannerView for Android.
-> Extends from RecyclerView.  
+> Base on RecyclerView.  
 Show image or text.  
 Simple to use and easy to expand.
 # Screenshots
