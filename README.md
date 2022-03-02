@@ -2,6 +2,7 @@
 A BannerView for Android.
 > Base on RecyclerView.  
 Show image or text.  
+Support adding any layout.
 Simple to use and easy to expand.
 # Screenshots
 ![screenshot](https://raw.githubusercontent.com/mminng/BannerView/main/screenshots/Screenshot_image.png)&emsp;![screenshot](https://raw.githubusercontent.com/mminng/BannerView/main/screenshots/Screenshot_text.png)
